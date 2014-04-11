@@ -1,21 +1,24 @@
+/**
+http://blog.csdn.net/twlkyao/article/details/23471741
+*/
 #include<stdio.h>
 
-typedef struct color { // The struct of color.
+typedef struct { // The struct of color.
     int r;
     int g;
     int b;
-};
+}color;
 
-typedef struct point { // The struct of points.
+typedef struct { // The struct of points.
     int x;
     int y;
-};
+}point;
 
-typedef struct rec { // The struct of rectangle.
+typedef struct { // The struct of rectangle.
     point start;
     point end;
     color c;
-};
+}rec;
 
 int main() {
     int n,m;
